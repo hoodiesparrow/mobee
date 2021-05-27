@@ -145,9 +145,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # 여기값들은 그 헤로쿠 홈페이지에서 설정
 CORS_ALLOWED_ORIGINS = [
     # config('CORS_VUE_URL'),
-    # config('CORS_NETLIFY_URL'),
-    "http://localhost:8080",
-    "http://192.168.25.46:8080",
+    config('CORS_NETLIFY_URL'),
 ]
 
 
